@@ -11,11 +11,11 @@ module.exports = {
       name: "type",
       choices: [
         {
-          name: "parcel-vue-app",
+          name: "fast-react-app",
           value: {
             url: "https://github.com/maomincoding/fast-react-app.git",
-            gitName: "parcel-vue-app",
-            val: "parcel-vue-app",
+            gitName: "fast-react-app",
+            val: "fast-react-app",
           },
         },
       ],
