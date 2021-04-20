@@ -1,6 +1,6 @@
 {
   "name": "fast-react-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Blazing fast, zero configuration react application bundler.",
   "keywords": [
     "parcel",
@@ -19,7 +19,7 @@
   "private": false,
   "main": "index.js",
   "bin": {
-    "parcel-vue-cli": "./bin/index.js"
+    "fast-react-cli": "./bin/index.js"
   },
   "dependencies": {
     "chalk": "^4.0.0",
