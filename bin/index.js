@@ -52,12 +52,12 @@ commander
                 console.error(err);
                 return;
               } else {
-                exec(`cd ${projectName}`, function (err, out) {
-                  console.log(err);
-                  exec("git remote rm origin", function (err, out) {
+                exec(
+                  `cd ${projectName};git remote rm origin`,
+                  function (err, out) {
                     console.log(err);
-                  });
-                });
+                  }
+                );
               }
             });
             console.log(
