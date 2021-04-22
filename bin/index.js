@@ -47,12 +47,15 @@ commander
               chalk.red(`The ${projectName} project template already exist`)
             );
           } else {
-            exec("git remote rm origin", function (err, out) {});
-            console.log(
-              chalk.green(
-                `✔ The ${projectName} project template successfully create`
-              )
-            );
+            exec("git remote rm origin", function (err, out) {
+              if (err === null) {
+                console.log(
+                  chalk.green(
+                    `✔ The ${projectName} project template successfully create`
+                  )
+                );
+              }
+            });
           }
         });
       });
