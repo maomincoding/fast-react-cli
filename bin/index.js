@@ -54,15 +54,12 @@ commander
               } else {
                 exec(
                   `cd ${projectName};git remote rm origin`,
-                  function (err, out) {
-                    if (err !== null) {
-                      console.log(
-                        chalk.green(
-                          `✔ The ${projectName} project template successfully create`
-                        )
-                      );
-                    }
-                  }
+                  function (err, out) {}
+                );
+                console.log(
+                  chalk.green(
+                    `✔ The ${projectName} project template successfully create`
+                  )
                 );
               }
             });
