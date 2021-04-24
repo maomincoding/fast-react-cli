@@ -1,6 +1,6 @@
 {
   "name": "fast-react-cli",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Blazing fast, zero configuration react application bundler.",
   "keywords": [
     "parcel",
