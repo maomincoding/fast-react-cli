@@ -11,7 +11,7 @@ module.exports = {
 			name: 'type',
 			choices: [
 				{
-					name: 'fast-react-app@1.1.1',
+					name: 'fast-react-app@1.1.2',
 					value: {
 						url: 'https://github.com/maomincoding/fast-react-app.git',
 						gitName: 'fast-react-app',
